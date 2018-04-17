@@ -15,3 +15,10 @@ Therefore, I devised a plan consists of the above theory and a reduced version o
 5 - Shifting the images by adding a small random number to each projection and store the results to
 provide data set for Cryo EM.
 
+FVR_main: the main which reads the Volume data and transform it into Fourier space. Then, 2D projections extract from complex space by applying functions which describe below. 
+SplitComplexVolume : splits the complex volume to real and imaginary part. after that,
+ExtractProjectionSliceFromUnifiedVolume: extracts slice for both real and imaginary parts and
+then combines them together to make the complex slice.
+ExtractSliceFromUnifiedVolume: this function extracts slices using projection-slice theorem.
+
+
