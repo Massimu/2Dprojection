@@ -14,4 +14,4 @@ Therefore, I devised a plan consists of the above theory and a reduced version o
 4 - Adding random Gaussian noise (white noise) to each projection using agwn function of MATLAB .
 5 - Shifting the images by adding a small random number to each projection and store the results to
 provide data set for Cryo EM.
---------------------------------------------------------------------------------------------------------------------
+
